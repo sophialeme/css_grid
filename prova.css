@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(117, 151, 151);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#TopBox{
+    width: auto;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#BottomBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    #perfil{
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background: url(https://i.pinimg.com/564x/0f/c9/31/0fc9315d2887ccbf75f0fb1a5dc148ae.jpg);
+    background-position: 0% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+.lacuna{
+    width: 200px;
+    height: 200px;
+    border-radius: 15%;
+    background-color: rgb(51, 97, 87);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cor{
+    width: 200px;
+    height: 35%;
+    background-color: rgb(47, 71, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.img{
+    width: 200px;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media( min-width: 700px ) {
+    #TopBox{
+        flex-direction: row;
+    }
+    #perfil{
+        margin-right: 40px;
+        width: 200px;
+        height: 200px;
+    }
+    #BottomBox{
+    flex-direction: row;
+    }
+    .lacuna{
+        margin-right: 40px;
+    }
+}
